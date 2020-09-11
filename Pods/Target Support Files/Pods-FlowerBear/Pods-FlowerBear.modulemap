@@ -1,0 +1,6 @@
+framework module Pods_FlowerBear {
+  umbrella header "Pods-FlowerBear-umbrella.h"
+
+  export *
+  module * { export * }
+}

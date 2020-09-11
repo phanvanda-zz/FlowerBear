@@ -1,0 +1,11 @@
+//
+//  Localizable.strings
+//  FlowerBear
+//
+//  Created by Da on 9/10/20.
+//  Copyright © 2020 . All rights reserved.
+//
+
+// API
+"api.invalidResponseError" = "Invalid server response";
+"api.unknownError" = "Unknown API error";

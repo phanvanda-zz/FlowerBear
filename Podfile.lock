@@ -1,0 +1,115 @@
+PODS:
+  - Alamofire (4.9.1)
+  - Differentiator (4.0.1)
+  - Localize-Swift (2.0.0)
+  - MBProgressHUD (1.2.0)
+  - MessageInputBar (0.4.1):
+    - MessageInputBar/Core (= 0.4.1)
+  - MessageInputBar/Core (0.4.1)
+  - MGAPIService (2.2.1):
+    - ObjectMapper (~> 3.5)
+    - RxAlamofire (~> 5.1)
+    - RxSwift (~> 5.1)
+  - MGArchitecture (1.3.1):
+    - RxCocoa (~> 5.1)
+    - RxSwift (~> 5.1)
+  - MGLoadMore (1.3.1):
+    - MJRefresh (~> 3.2)
+    - RxCocoa (~> 5.1)
+    - RxSwift (~> 5.1)
+  - MJRefresh (3.4.3)
+  - "NSObject+Rx (5.1.0)":
+    - RxSwift (~> 5.1)
+  - ObjectMapper (3.5.3)
+  - Reusable (4.1.1):
+    - Reusable/Storyboard (= 4.1.1)
+    - Reusable/View (= 4.1.1)
+  - Reusable/Storyboard (4.1.1)
+  - Reusable/View (4.1.1)
+  - RxAlamofire (5.1.0):
+    - RxAlamofire/Core (= 5.1.0)
+  - RxAlamofire/Core (5.1.0):
+    - Alamofire (~> 4.8)
+    - RxSwift (~> 5.0)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxDataSources (4.0.1):
+    - Differentiator (~> 4.0)
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - SDWebImage (5.8.4):
+    - SDWebImage/Core (= 5.8.4)
+  - SDWebImage/Core (5.8.4)
+  - Then (2.7.0)
+  - Validator (3.2.1)
+
+DEPENDENCIES:
+  - Alamofire (= 4.9.1)
+  - Localize-Swift (~> 2.0)
+  - MBProgressHUD (~> 1.1)
+  - MessageInputBar
+  - MGAPIService (~> 2.2.1)
+  - MGArchitecture (~> 1.3.1)
+  - MGLoadMore (~> 1.3.1)
+  - MJRefresh (~> 3.2)
+  - "NSObject+Rx (~> 5.0)"
+  - ObjectMapper (~> 3.5)
+  - Reusable (~> 4.1)
+  - RxAlamofire (= 5.1)
+  - RxDataSources (~> 4.0)
+  - SDWebImage (~> 5.0)
+  - Then (~> 2.4)
+  - Validator (~> 3.2.1)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Differentiator
+    - Localize-Swift
+    - MBProgressHUD
+    - MessageInputBar
+    - MGAPIService
+    - MGArchitecture
+    - MGLoadMore
+    - MJRefresh
+    - "NSObject+Rx"
+    - ObjectMapper
+    - Reusable
+    - RxAlamofire
+    - RxCocoa
+    - RxDataSources
+    - RxRelay
+    - RxSwift
+    - SDWebImage
+    - Then
+    - Validator
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Differentiator: 886080237d9f87f322641dedbc5be257061b0602
+  Localize-Swift: c798ec9286494866f7068f85f7c71283ac5bdab4
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MessageInputBar: e81c7535347f1f7b923de7080409a535a004b6e4
+  MGAPIService: 2ea8217d3bb8cde33bf47e6579882a73a9cccebb
+  MGArchitecture: 0fa04fdeea21f26469b8faab16ba48752af31499
+  MGLoadMore: a12ea88793ed989f2afd73b958aaf70e12048a7d
+  MJRefresh: 53e3e3219f204425ee6d3e62e8733d3295944cd6
+  "NSObject+Rx": fa6bbcc1ab1faa06b01466bc09b1e0692bbc5946
+  ObjectMapper: 97111c97e054a6ee25917662106689f0b4127b37
+  Reusable: 53a9acf5c536f229b31b5865782414b508252ddb
+  RxAlamofire: a2d7621de4c23a0c6e7b476b504acc32838ee341
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxDataSources: efee07fa4de48477eca0a4611e6d11e2da9c1114
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  SDWebImage: cf6922231e95550934da2ada0f20f2becf2ceba9
+  Then: acfe0be7e98221c6204e12f8161459606d5d822d
+  Validator: 80a6f567220c962dfd2d9928ae98a8c1d164f6f4
+
+PODFILE CHECKSUM: d0c2fc07f17caafdbe9031d3bbf883ab479c88db
+
+COCOAPODS: 1.9.3
