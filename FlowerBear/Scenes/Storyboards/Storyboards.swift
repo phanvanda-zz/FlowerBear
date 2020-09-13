@@ -9,5 +9,6 @@
 import UIKit
 
 enum Storyboards {
-
+    // Login
+    static let login = UIStoryboard(name: "Login", bundle: nil)
 }

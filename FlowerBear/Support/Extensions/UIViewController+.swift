@@ -11,7 +11,7 @@ import MBProgressHUD
 
 extension UIViewController {
     func showError(message: String, completion: (() -> Void)? = nil) {
-        let ac = UIAlertController(title: "Error",
+        let ac = UIAlertController(title: "Lỗi",
                                    message: message,
                                    preferredStyle: .alert)
         let okAction = UIAlertAction(title: "OK", style: .cancel) { _ in
