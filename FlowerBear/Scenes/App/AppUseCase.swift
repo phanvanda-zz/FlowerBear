@@ -7,9 +7,11 @@
 //
 
 protocol AppUseCaseType {
-
+    func getToken() -> String?
 }
 
 struct AppUseCase: AppUseCaseType {
-
+    func getToken() -> String? {
+        return AppSettings.user?.token
+    }
 }

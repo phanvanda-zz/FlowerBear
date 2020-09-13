@@ -18,10 +18,23 @@ extension AppViewModel: ViewModelType {
     }
     
     struct Output {
-
+        let toLogin: Driver<Void>
     }
     
     func transform(_ input: Input) -> Output {
-        return Output()
+        
+        let toLogin = input.loadTrigger
+            .do(onNext: { _ in
+                guard let _ = self.useCase.getToken() else {
+                    self.navigator.toLogin()
+                    return
+                }
+                self.navigator.toLogin()
+                // go Home Screen
+            })
+        
+        return Output(
+            toLogin: toLogin
+        )
     }
 }

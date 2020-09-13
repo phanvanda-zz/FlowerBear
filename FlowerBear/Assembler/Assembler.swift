@@ -7,9 +7,10 @@
 //
 
 protocol Assembler: class,
-    AppAssembler {
-    
-}
+    AppAssembler,
+    LoginAssembler,
+    RepositoriesAssembler
+{}
 
 final class DefaultAssembler: Assembler {
     
