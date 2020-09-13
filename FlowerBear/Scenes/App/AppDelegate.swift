@@ -14,6 +14,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     var assembler: Assembler = DefaultAssembler()
     
+    class var shared: AppDelegate {
+        return (UIApplication.shared.delegate as? AppDelegate) ?? AppDelegate()
+    }
+    
     func applicationDidFinishLaunching(_ application: UIApplication) {
         Localize.setCurrentLanguage("ja")
 

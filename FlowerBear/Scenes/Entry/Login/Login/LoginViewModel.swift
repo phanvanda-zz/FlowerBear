@@ -52,7 +52,7 @@ extension LoginViewModel: ViewModelType {
         
         let login = input.loginTrigger
             .withLatestFrom(checkValidate)
-            .filter { $0 }
+//            .filter { $0 }
             .withLatestFrom(userInfo)
             .flatMapLatest { (email, password) -> Driver<UserModel> in
                 self.useCase.login(email: email, password: password)
@@ -61,7 +61,7 @@ extension LoginViewModel: ViewModelType {
                     .asDriverOnErrorJustComplete()
             }.do(onNext: { user in
                 self.useCase.save(user: user)
-                //            self.navigator.toHome()
+                self.navigator.toMain()
                 print("Bingo")
             })
             .mapToVoid()

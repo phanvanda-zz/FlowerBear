@@ -11,4 +11,6 @@ import UIKit
 enum Storyboards {
     // Login
     static let login = UIStoryboard(name: "Login", bundle: nil)
+    // Main
+    static let main = UIStoryboard(name: "Main", bundle: nil)
 }
