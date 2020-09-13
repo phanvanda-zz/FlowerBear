@@ -9,7 +9,12 @@
 protocol Assembler: class,
     AppAssembler,
     LoginAssembler,
-    RepositoriesAssembler
+    RepositoriesAssembler,
+    MainTabbarAssembler,
+    HomeAssembler,
+    ListAssembler,
+    NotiAssembler,
+    UserAssembler
 {}
 
 final class DefaultAssembler: Assembler {
