@@ -69,7 +69,7 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
-
+/FlowerBear.xcworkspace/xcuserdata/phan.van.da.xcuserdatad/UserInterfaceState.xcuserstate
 
 # igen
 igen.config
